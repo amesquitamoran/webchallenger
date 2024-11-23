@@ -102,18 +102,39 @@ ul, ol {
   margin-left: 20rem;
   margin-right: 20rem;
 }
+@media only screen and (max-width: 1280px) {
+  .main {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+}
 .main__anuncio h3 {
   text-transform: uppercase;
   font-size: 2rem;
   padding-bottom: 2.5rem;
   font-weight: 500;
 }
+@media only screen and (max-width: 1280px) {
+  .main__anuncio h3 {
+    font-size: 1.25rem;
+  }
+}
 .main__anuncio h1 {
   font-size: 11rem;
+}
+@media only screen and (max-width: 1280px) {
+  .main__anuncio h1 {
+    font-size: 5.6rem;
+  }
 }
 .main__anuncio--p {
   font-size: 2.5rem;
   margin-bottom: 5rem;
+}
+@media only screen and (max-width: 1280px) {
+  .main__anuncio--p {
+    font-size: 1.25rem;
+  }
 }
 .main__anuncio__buttons--get {
   background-color: #2A4DD0;
@@ -123,6 +144,11 @@ ul, ol {
   border-radius: 1.5rem;
   transition: 0.5s;
   display: inline-block;
+}
+@media only screen and (max-width: 1280px) {
+  .main__anuncio__buttons--get {
+    font-size: 1.25rem;
+  }
 }
 .main__anuncio__buttons--get:hover {
   background-color: #001f91;
@@ -136,6 +162,11 @@ ul, ol {
   position: relative;
   padding-bottom: 0.5rem;
   font-weight: 500;
+}
+@media only screen and (max-width: 1280px) {
+  .main__anuncio__buttons--getLive {
+    font-size: 1.25rem;
+  }
 }
 .main__anuncio__buttons--getLive::after {
   content: "";
@@ -155,6 +186,12 @@ ul, ol {
   margin-right: 1.5rem;
   transform: scale(1.5);
 }
+@media only screen and (max-width: 1280px) {
+  .main__anuncio__check svg {
+    margin-right: 0.8rem;
+    transform: scale(1);
+  }
+}
 .main__anuncio__check--svg2 {
   margin-left: 2rem;
 }
@@ -162,5 +199,18 @@ ul, ol {
   font-size: 2.5rem;
   text-align: center;
 }
+@media only screen and (max-width: 1280px) {
+  .main__anuncio__check p {
+    font-size: 1.25rem;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .main__portada--imgportada {
+    width: 45rem;
+    height: auto;
+  }
+}
+
+/*hola com oestas asdasdasdasdasd*/
 
 /*# sourceMappingURL=estilos.css.map */
