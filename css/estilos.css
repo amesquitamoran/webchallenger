@@ -28,6 +28,12 @@ ul, ol {
   margin-left: 20rem;
   margin-right: 20rem;
 }
+@media only screen and (max-width: 1280px) {
+  .nav__navegacion {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+}
 .nav__navegacion__imagen {
   display: flex;
   align-items: center;
@@ -72,6 +78,16 @@ ul, ol {
 }
 .nav__navegacion__acces a:hover {
   color: #2A4DD0;
+}
+@media only screen and (max-width: 1440px) {
+  .nav__navegacion__acces {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .nav__navegacion__acces {
+    width: 50%;
+  }
 }
 .nav__navegacion__iconos {
   background-color: #111729;
@@ -210,7 +226,5 @@ ul, ol {
     height: auto;
   }
 }
-
-/*hola com oestas asdasdasdasdasd*/
 
 /*# sourceMappingURL=estilos.css.map */
