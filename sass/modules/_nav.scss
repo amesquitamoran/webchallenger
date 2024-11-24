@@ -61,26 +61,5 @@
             width: 50%;
         }
       }
-      &__iconos{
-        background-color: #111729;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 5rem;
-        width: 5rem;
-        height: 2.5rem;
-
-        &--sol{
-            background-color: white;
-            border-radius: 50%;
-            width: 2rem;
-            height: 2rem;
-        }
-        &--luna{
-            color: white;
-            width: 2rem;
-            height: 2rem;
-        }
-      }
     }
 }
